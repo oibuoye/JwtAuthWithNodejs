@@ -45,7 +45,6 @@ The API is used to manage states and users with JWT used for authentication.
     }
 
 
-### Auth ### 
 -   `Post` /api/auth --- Request
 
 ```json
@@ -56,7 +55,6 @@ The API is used to manage states and users with JWT used for authentication.
 
 
 
-### State ### 
 -   `GET` /api/states
 
 ```json
