@@ -1,0 +1,4 @@
+{
+    "jwtsecretkey":"nodejs_jwtsecretkey",
+    "db": "nodejs_jwtdbconnection_string"
+}
