@@ -1,11 +1,11 @@
 # JwtAuthWithNodejs
 
 This repository contains a demo API built with NodeJS.
-The API is used to manage states and users with JWT used for authentication.
+The API is used to manage states and users with JWT used for authorization.
 
 
 ### User ###
--   `GET` /api/user --- Response
+-   `GET` /api/user
 
 ```json
 [
@@ -24,7 +24,7 @@ The API is used to manage states and users with JWT used for authentication.
 ]
 
 
--   `GET` /api/user/5d454f6c0c38920608b20763 --- Response
+-   `GET` /api/user/5d454f6c0c38920608b20763
 
 ```json
 
