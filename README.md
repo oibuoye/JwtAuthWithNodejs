@@ -22,7 +22,7 @@ The API is used to manage states and users with JWT used for authorization.
         "__v": 0
     }
 ]
-
+```
 
 -   `GET` /api/user/5d454f6c0c38920608b20763
 
@@ -34,7 +34,7 @@ The API is used to manage states and users with JWT used for authorization.
         "email": "xxx@yahoo.com",
         "__v": 0
     }
-
+```
 -   `POST` /api/user  --- Request--- Add a new user'
 
 ```json
@@ -43,17 +43,16 @@ The API is used to manage states and users with JWT used for authorization.
         "email": "ibuoyeope@yahoo.com",
         "password": "password"
     }
+```
 
-
--   `Post` /api/auth --- Request
+-   `Post` /api/auth --- This is use to get token
 
 ```json
     {
         "email": "ibuoyeope@yahoo.com",
         "password": "password"
     }
-
-
+```
 
 -   `GET` /api/states
 
@@ -68,7 +67,7 @@ The API is used to manage states and users with JWT used for authorization.
         "name": "Oyo"
     }
 ]
-
+```
 
 -   `GET` /api/states/67263538769e0300171887365
 
@@ -78,6 +77,7 @@ The API is used to manage states and users with JWT used for authorization.
         "_id": "67263538769e0300171887365",
         "name": "Lagos"
     }
+```
 
 -   `POST` /api/states  - Add a new state with with token passed as part of the header 'x-auth-token'
 
@@ -85,7 +85,7 @@ The API is used to manage states and users with JWT used for authorization.
     {
         "name": "Lagos"
     }
-
+```
 
 
 ### Development
